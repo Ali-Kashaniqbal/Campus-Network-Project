@@ -23,3 +23,21 @@ During Week 1, our team focused on core requirements analysis, defining team str
 * Configure VLANs on the switch and establish Router-on-a-Stick trunk encapsulation (`dot1q`).
 * Activate the DHCP scope from the Cisco Router to verify dynamic IP allocation for the Guest VLAN.
 * Test all-to-all base ping connectivity before implementing Access Control Lists (ACLs).
+* ---
+## Week 1 Final Deliverables Summary
+
+### 📂 Repository File Structure Tracker
+Our repository has been structured according to standard guidelines to maintain clean commits throughout the 6 weeks:
+* `/topology/topology.png` - Exported high-resolution logical diagram from draw.io [Completed]
+* `/docs/IP_Addressing_Plan.xlsx` - Detailed network zone assignment and subnets [Completed]
+* `/docs/Resource_Acquisition_Report.pdf` - Verification of GNS3, Cisco IOS, and Ubuntu VM setups [Completed]
+* `/docs/Risk_Assessment_Matrix.pdf` - Analytical framework identifying system failure parameters and safeguards [Completed]
+
+### 🤝 Group Contract & Coordination Roles
+All 6 group members have signed off on the responsibilities below, agreeing to equal distribution of lab work:
+1. **Ali Kashan (Project Lead & Git Master):** Directing timeline management, repository architecture, and status compilation.
+2. **Malik Mohsin Sajjad (Network Architect):** Responsible for designing structural diagrams and GNS3 layout environments.
+3. **Ahmad Faraz (Routing & Security Specialist):** Core network configuration lead for switches, routing encapsulation, and ACL logic.
+4. **Abdullah (System Administrator):** In-charge of Ubuntu VM configurations and hosting the local Captive Portal.
+5. **Aizaz (Penetration Tester):** Managing Kali Linux deployment, packet captures via Wireshark, and local attack scripts.
+6. **Muhammad Rauf Saqib (Performance Analyst):** Executing validation logs, iPerf bandwidth tracking, and metrics compilation.
